@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+.header {
+    display: flex;
+    background:rgb(108, 176, 108);
+    justify-content: space-between;
+    padding: 10px 5%;
+width: 100%;
+/* position: fixed; */
+
+}
+.header  .header-left img{
+    width: 165px;
+}
+.header  .header-left {
+    display: flex;
+    gap: 20px;
+}
+.header  .header-left ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header  .header-left ul li{
+    list-style-type: none;
+    color: white;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-right img {
+    width: 30px;
+    border-radius: 50%;
+}
+.header-right input{
+    border: none;
+    outline: none;
+    width: 250px;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+.online {
+    position: relative;
+}
+.online::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: rgb(108, 226, 108);
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+}
+/* header */
+/* content */
+.content{
+    display: flex;
+    padding: 10px 5%;
+    gap: 10px;
+    
+}
+/* content */
+/* left */
+.left{
+    /* margin-top: 60px; */
+    flex-grow: 1;
+    /* background: red; */
+    
+}
+
+.left li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.left li img{
+    width: 25px;
+}
+.left a{
+    text-decoration: none;
+}
+.left hr{
+    margin-bottom: 10px;
+}
+.left p{
+    margin-bottom: 10px;
+}
+.left .short .short01{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.left .short .short01 img{
+     width: 35px;
+     border-radius: 5px;
+}
+.content .left li:hover{
+    cursor: pointer;
+}
+/* left */
+/* center */
+.center{
+    /* position: relative; */
+    width: 800px;
+    /* margin-top: 60px; */
+    /* background: green; */
+}
+/* story */
+.center .story {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.center .story img {
+    width: 100px;
+    border-radius: 5px;
+}
+.center .story  .story-aa{
+    
+    position: relative;
+
+}
+.center .story  .story-aa .name{
+    position: absolute;
+    bottom: 15px;
+}
+.center .story .name img{
+    width: 25px;
+}
+.center .story  .story-aa .time img{
+    border-radius: 50%;
+    border: 2px solid rgb(250, 244, 244);
+}
+/* story */
+/* 2 center */
+.center-2{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.center-2 .header-center-2{
+    display: flex;
+    gap: 10px;
+}
+.center-2 .header-center-2 img{
+    width: 30px;
+    border-radius: 50%;
+}
+.center-2 .are{
+    width: 100%;
+    height: 80px;
+    color: black;
+    border-radius: 5px;
+}
+/*icon */
+.center-2 .header-icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: green;
+}
+/* */
+.status-contaiter{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.status-contaiter .user-text{
+    display: flex;
+}
+.status-contaiter .user-text img{
+    width: 40px;
+    border-radius: 50%;
+}
+.status-contaiter .status-name{
+    margin-left: 8px;
+}
+.status-contaiter .write-post-text{
+    margin:10px 20px;
+}
+.feed-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-image img{
+    width: 95%;
+}
+/* */
+.post-reaction{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: 5px 20px;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(131, 210, 131);
+}
+.post-reaction .icon1 img{
+    width: 25px;
+}
+
+
+/* 2 center */
+
+
+
+/* center */
+
+/* right */
+.right{
+    flex-grow: 0.4;
+    /* background: rgb(242, 128, 22); */
+}
+.box-right{
+    margin: 5px;
+}
+
+.box-right .icon-box{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color:greenyellow ;
+    font-size: 20px;
+}
+.box-right .icon-box i:hover{
+    color: red;
+    cursor:pointer;
+}
+
+.friends{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.friends .friends-Avata img{
+    width: 30px;
+    border-radius: 50%;
+}
+.friends .friends-Name{
+    padding-left: 10px;
+}
+.friends:hover{
+    box-shadow: rgb(79, 227, 96) 0px 5px 5px 2px;
+    cursor:pointer;
+}
+
+
+
+/* right */
+
